@@ -1,0 +1,14 @@
+{
+  "name": "akka-neo4j-kit",
+  "description": "Team kit: a Claude Code subagent for Akka SDK services that use Neo4j",
+  "owner": {
+    "name": "Akka Neo4j team"
+  },
+  "plugins": [
+    {
+      "name": "akka-neo4j",
+      "source": "./plugins/akka-neo4j",
+      "description": "akka-neo4j subagent, 5 Neo4j skills, and a read-only Neo4j MCP server"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "name": "akka-neo4j",
+  "version": "1.0.0",
+  "description": "akka-neo4j subagent, 5 Neo4j skills, and a read-only Neo4j MCP server",
+  "author": {
+    "name": "Akka Neo4j team"
+  }
+}

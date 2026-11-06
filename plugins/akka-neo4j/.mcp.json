@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "neo4j": {
+      "command": "neo4j-mcp",
+      "env": {
+        "NEO4J_MCP_URI": "${NEO4J_MCP_URI}",
+        "NEO4J_MCP_USERNAME": "${NEO4J_MCP_USERNAME}",
+        "NEO4J_MCP_PASSWORD": "${NEO4J_MCP_PASSWORD}",
+        "NEO4J_MCP_DATABASE": "${NEO4J_MCP_DATABASE:-neo4j}",
+        "NEO4J_MCP_READ_ONLY": "true",
+        "NEO4J_MCP_TELEMETRY": "false"
+      }
+    }
+  }
+}

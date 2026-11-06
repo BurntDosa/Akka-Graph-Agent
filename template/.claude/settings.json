@@ -1,0 +1,34 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-settings.json",
+  "extraKnownMarketplaces": {
+    "ai-marketplace": {
+      "source": { "source": "github", "repo": "akka/ai-marketplace", "ref": "v2.9.4" },
+      "autoUpdate": false
+    },
+    "akka-neo4j-kit": {
+      "source": { "source": "github", "repo": "BurntDosa/Akka-Graph-Agent", "ref": "v1.0.0" },
+      "autoUpdate": false
+    }
+  },
+  "enabledPlugins": {
+    "akka@ai-marketplace": true,
+    "akka-neo4j@akka-neo4j-kit": true
+  },
+  "permissions": {
+    "deny": [
+      "mcp__plugin_akka_akka__akka_services_*",
+      "mcp__plugin_akka_akka__akka_routes_*",
+      "mcp__plugin_akka_akka__akka_projects_*",
+      "mcp__plugin_akka_akka__akka_backoffice_*",
+      "mcp__plugin_akka_akka__akka_build_image",
+      "mcp__plugin_akka-neo4j_neo4j__write-cypher",
+      "Bash(akka serv*)",
+      "Bash(akka route*)",
+      "Bash(akka project*)",
+      "PowerShell(akka serv*)",
+      "PowerShell(akka route*)",
+      "PowerShell(akka project*)"
+    ],
+    "disableBypassPermissionsMode": "disable"
+  }
+}
